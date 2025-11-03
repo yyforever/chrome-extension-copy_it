@@ -40,7 +40,7 @@
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/你的用户名/chrome-extension-copy_it.git
+   git clone https://github.com/yyforever/chrome-extension-copy_it.git
    cd chrome-extension-copy_it
    ```
 
@@ -334,6 +334,6 @@ MAX_HISTORY_COUNT: 20  // 改为 20 条
 
 **如果这个项目对你有帮助，请给个 ⭐️ Star 支持一下！**
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [yyforever](https://github.com/yyforever)
 
 </div>
