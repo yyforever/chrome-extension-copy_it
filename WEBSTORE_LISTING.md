@@ -215,6 +215,18 @@ Copy It 是一款强大的网页复制工具，帮助你轻松突破网站的复
 
 ---
 
+### 5️⃣ 隐私政策链接（推荐填写）
+
+**路径：商品详情 → 隐私权规范 → 隐私政策**
+
+```
+https://yyforever.github.io/chrome-extension-copy_it/PRIVACY_POLICY.html
+```
+
+⚠️ **注意：** 该页面托管在 GitHub Pages 上，首次部署需要 1-3 分钟，请稍后访问确认可用。
+
+---
+
 ## ⚠️ 特别提醒：Pro 升级功能
 
 **现状**：
