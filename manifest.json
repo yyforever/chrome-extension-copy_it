@@ -4,8 +4,6 @@
   "version": "1.0.0",
   "description": "轻松复制任何网站的文本内容，支持历史记录和批量合并",
   "permissions": [
-    "activeTab",
-    "scripting",
     "offscreen"
   ],
   "host_permissions": [
