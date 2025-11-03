@@ -1,0 +1,12 @@
+/* 菜单样式 - 外部容器 */
+#copy-it-menu {
+  all: initial;
+  position: fixed;
+  z-index: 2147483646;
+  pointer-events: auto;
+}
+
+/* 防止页面样式污染 */
+#copy-it-menu * {
+  box-sizing: border-box;
+}

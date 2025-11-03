@@ -1,0 +1,12 @@
+/* 浮窗按钮样式 - 外部容器 */
+#copy-it-floating-button {
+  all: initial;
+  position: fixed;
+  z-index: 2147483647;
+  pointer-events: auto;
+}
+
+/* 防止页面样式污染 */
+#copy-it-floating-button * {
+  box-sizing: border-box;
+}

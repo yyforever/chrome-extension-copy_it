@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Copy It - 解除复制限制",
+  "version": "1.0.0",
+  "description": "轻松复制任何网站的文本内容，支持历史记录和批量合并",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "offscreen"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "src/background/service-worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "src/utils/constants.js",
+        "src/content/SelectionManager.js",
+        "src/content/HistoryManager.js",
+        "src/content/FloatingButton.js",
+        "src/content/Menu.js",
+        "src/content/content-script.js"
+      ],
+      "css": [
+        "src/styles/floating-button.css",
+        "src/styles/menu.css"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Copy It"
+  }
+}
