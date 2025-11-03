@@ -46,6 +46,10 @@
 
 2. **生成图标**（首次安装需要）
    ```bash
+   # 推荐：使用 ImageMagick（高质量）
+   ./generate_icons_imagemagick.sh
+
+   # 或使用 Python（Pillow）
    python3 generate_icons.py
    ```
 
